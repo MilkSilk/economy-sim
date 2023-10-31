@@ -1,11 +1,11 @@
 import logging
 from collections import defaultdict
 
-logger = logging.getLogger("Citizen_logger")
+logger = logging.getLogger("Household_logger")
 logger.setLevel(logging.WARN)
 
 
-class Citizen:
+class Household:
     def __init__(
         self, name: str, cash: int, utility_functions: dict, items: defaultdict
     ):
